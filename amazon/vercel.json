@@ -1,5 +1,12 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/" }
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "https://amazon.com/api/$1"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "https://amazon.com/$1"
+        }
     ]
   }
