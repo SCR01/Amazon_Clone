@@ -1,12 +1,12 @@
 {
     "routes": [
         {
-            "src": "/api/(.*)",
-            "dest": "https://amazon.com/api/$1"
+            "src": "/",
+            "dest": "/"
         },
         {
-            "src": "/(.*)",
-            "dest": "https://amazon.com/$1"
+            "src": "/test",
+            "dest": "/"
         }
     ]
   }
