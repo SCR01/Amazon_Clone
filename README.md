@@ -2,6 +2,14 @@
 
 This is a simple Amazon clone project built using HTML, CSS, and JavaScript. The project simulates an Amazon-like user interface with various pages for product browsing, user login/signup, and a shopping cart. This is a front-end-only project and serves as a practice for creating static web pages with HTML, CSS, and JavaScript.
 
+
+# Demo
+![Screenshot 2024-11-08 080110](https://github.com/user-attachments/assets/f87efbd2-0e04-45b9-b24a-74997da52198)
+
+![image](https://github.com/user-attachments/assets/e40071e9-2971-403e-b0ca-0872fae52f55)
+
+
+
 ## Table of Contents
 
 - [Features](#features)
