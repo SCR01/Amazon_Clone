@@ -1,10 +1,12 @@
 {
-    "version": 2,
-    "public": "src",
-    "builds": [],
     "routes": [
-      { "src": "/(.*)", "dest": "/src/$1" },
-      { "src": "/", "dest": "/src/index.html" }
+        {
+            "src": "/",
+            "dest": "/"
+        },
+        {
+            "src": "/test",
+            "dest": "/"
+        }
     ]
   }
-  
