@@ -1,20 +1,35 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "index.html",
-        "use": "@vercel/static"
-      }
-    ],
-    "routes": [
-      {
-        "src": "/",
-        "dest": "/index.html"
-      },
-      {
-        "src": "/test",
-        "dest": "/index.html"
-      }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/amazon/",
+      "dest": "/amazon/index.html"
+    },
+    {
+      "src": "/amazon/test",
+      "dest": "/amazon/index.html"
+    },
+    {
+      "src": "/amazon/login",
+      "dest": "/amazon/login.html"
+    },
+    {
+      "src": "/amazon/signup",
+      "dest": "/amazon/signup.html"
+    },
+    {
+      "src": "/amazon/product",
+      "dest": "/amazon/product.html"
+    },
+    {
+      "src": "/amazon/cart",
+      "dest": "/amazon/cart.html"
+    }
+  ]
+}
